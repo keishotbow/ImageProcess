@@ -131,6 +131,7 @@
     <ClCompile Include="EXTMat.cpp" />
     <ClCompile Include="Graphic.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Trackbar.cpp" />
     <ClCompile Include="Video.cpp" />
     <ClCompile Include="VideoShuffle.cpp" />
   </ItemGroup>
@@ -138,6 +139,7 @@
     <ClInclude Include="EdgeDetect.h" />
     <ClInclude Include="EXTMat.h" />
     <ClInclude Include="Graphic.h" />
+    <ClInclude Include="Trackbar.h" />
     <ClInclude Include="Video.h" />
     <ClInclude Include="VideoShuffle.h" />
   </ItemGroup>

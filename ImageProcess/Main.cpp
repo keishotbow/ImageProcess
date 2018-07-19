@@ -5,6 +5,7 @@
 #include "Video.h"
 #include "VideoShuffle.h"
 #include "Graphic.h"
+#include "Trackbar.h"
 
 using namespace std;
 using namespace cv;
@@ -26,8 +27,11 @@ int main(void) {
 	VideoShuffle shuffle;
 	shuffle.shuffle(cap);*/
 
-	Graphic graph;
-	graph.showGraph();
+	//Graphic graph;
+	//graph.showGraph();
+
+	Trackbar tb;
+	tb.start();
 
 	return 0;
 }
